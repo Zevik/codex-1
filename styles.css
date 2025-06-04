@@ -1,0 +1,144 @@
+body {
+    direction: rtl;
+    text-align: right;
+    margin: 0;
+    font-family: 'Alef', sans-serif;
+    background: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.hero {
+    background: #e8f0fe;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.hero .title {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.hero .subtitle {
+    margin: 0.5rem 0 1.5rem;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.cta {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #25d366;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.cta:hover {
+    background: #1da851;
+}
+
+section {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.services .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    padding: 1rem;
+    border-radius: 8px;
+    background: #fafafa;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+}
+
+.icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.testimonials blockquote {
+    background: #fafafa;
+    border-right: 4px solid #5c6bc0;
+    border-radius: 4px;
+    margin: 0 0 1rem;
+    padding: 0.75rem 1rem;
+}
+
+.whatsapp {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #25d366;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.whatsapp:hover {
+    background: #1da851;
+}
+
+.email {
+    margin-top: 1rem;
+}
+
+.contact-form {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font: inherit;
+}
+
+.contact-form button {
+    align-self: flex-start;
+    padding: 0.5rem 1rem;
+    background: #5c6bc0;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background: #3949ab;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    color: #777;
+}
+
+@media (max-width: 600px) {
+    .hero .title {
+        font-size: 2rem;
+    }
+}
